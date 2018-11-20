@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px; }
+
+.card {
+  display: inline-block;
+  padding: 20px;
+  height: 300px;
+  width: 200px;
+  overflow: hidden; }
+  .card .image {
+    height: 280px;
+    width: 200px; }
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 skyblue, 0 6px 20px 0 skyblue; }
+
+@media only screen and (max-width: 600px) {
+  input, button {
+    border: 1px solid black; }
+
+  .card {
+    display: inline-block;
+    padding: 0px 20px;
+    width: 100%; }
+    .card .image {
+      height: 250px;
+      width: 99%; } }
+
+/*# sourceMappingURL=index.css.map */
